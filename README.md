@@ -16,8 +16,7 @@ Using the docker image to run windows application (with Chinese support) like fi
      ```
    * Run with Tranditional Chinese Support
      ```bash    
-
-docker run -p 8080:8080 -p 8081:22  -e LANG=zh_TW.UTF-8 -e LC_ALL=zh_TW.UTF-8 sykuang/wine-x11-novnc
+     docker run -p 8080:8080 -p 8081:22  -e LANG=zh_TW.UTF-8 -e LC_ALL=zh_TW.UTF-8 sykuang/wine-x11-novnc
      ```
    * Extended Run
      ```bash
